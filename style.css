@@ -43,6 +43,29 @@ p{
 .section-m1{
     margin: 40px 0;
 }
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #1a0303;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #e8dfdf;
+    background-color:transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
 
 body{
     width: 100%;
@@ -178,3 +201,185 @@ body{
 #features .fe-box:nth-child(6) h6{
     background-color: #c6af9c;
 }
+
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #adb99e;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0,0,0.03);
+    margin: 15px 7px;
+    transition: 0.2s ease;
+    position: relative;
+
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0,0,0.06);
+
+}
+#product1 .pro img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#product1 .pro .des h5{
+    padding: 2px;
+    color: #222;
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4{
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a0303;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #c6af9c;
+    font-weight: 500;
+    color: #bdcdc6;
+    border: 1px solid #f0f0f3;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: #1a0303;
+    font-size: 16px;
+}
+#banner h2{
+    color: #1a0303;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: #b90404;
+}
+#banner button:hover{
+    background-color: #670b0b;
+    color: #d8d8e2;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    background-image: url("img/banner/banner2\ .jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url("img/banner/banner3.jpg");
+}
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    background: #6d0326;
+    border: 1px solid #606063;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    background-image: url("img/banner/banner4.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 h2{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: rgb(231, 30, 30);
+    font-weight: 800;
+    font-size: 15px;
+}
+#banner3 .banner-box2{
+     background-image: url("img/banner/banner5.jpg");
+}
+#banner3 .banner-box3{
+     background-image: url("img/banner/banner6.jpg");
+}
+
